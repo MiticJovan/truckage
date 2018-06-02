@@ -1,0 +1,447 @@
+body {
+	margin: 0 auto;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+.header-main {
+	background-color: #ff9900;
+	height: 60px;
+	margin: auto;
+	display: flex;
+	width: 100%;
+}
+.call {
+	margin-left: 200px;
+	border-left: 1px solid #fff;
+	height: 60px;
+	padding-left: 20px;
+	border-right: 1px solid #fff;
+	padding-right: 20px;
+	
+}
+.call i {
+	vertical-align: middle;
+}
+.call a{
+	color: #fff;
+	text-decoration: none;
+}
+.fas.fa-phone-square {
+    -ms-transform:rotate(90deg);     /* Internet Explorer 9 */
+    -webkit-transform:rotate(90deg); /* Chrome, Safari, Opera */
+    transform:rotate(90deg);         /* Standard syntax */
+}
+.call a,i {
+	line-height: 60px;
+}
+.mail i {
+	color: #fff;
+	vertical-align: middle;
+}
+.mail {
+	height: 60px;
+	padding-left: 20px;
+	border-right: 1px solid #fff;
+	padding-right: 20px;
+}
+.mail a {
+	text-decoration: none;
+	color: #fff;
+}
+.mail a,i {
+	line-height: 60px;
+}
+.search {
+	height: 60px;
+	padding-left: 20px;
+}
+.search i {
+	line-height: 60px;
+	color: #fff;
+}
+.logo img {
+	width: 100%;
+}
+.nav {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.navigation a{
+	text-decoration: none;
+	margin: 15px;
+	color: #6f6f6f;
+}
+.navigation a:hover{
+color: #ff9900;
+}
+.truck-img img {
+	width: 100%;
+	height: 825px;
+	background-size: cover;
+	filter: brightness(65%);
+}
+.main-truck {
+	position: relative;
+}
+.main-truck h1 {
+	color: #fff;
+}
+.main-truck p {
+	color: #fff;
+}
+.main_truck_text {
+	position: absolute;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	
+}
+.main-truck h1 {
+	font-size: 80px;
+	letter-spacing: 10px;
+	text-shadow: 3px 3px #000;
+}
+.main_truck_text button {
+	padding: 10px 50px;
+	border-color: 1px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	font-size: 18px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.main_truck_text button:hover {
+	-moz-box-shadow:inset 0 0 14px #000000;
+   	-webkit-box-shadow: inset 0 0 14px #000000;
+   	box-shadow: inset 0 0 14px #000000;
+   	color:#ff9900;
+   	border-color: #ff9900;
+
+}
+.main_truck_text button:hover {
+	text-shadow: 0 0 15px #000000;
+}
+.main_info {
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+}
+.info {
+	width: 50%;
+	text-align: right;
+	padding-right: 50px;
+	padding-top: 90px;
+}
+.info h2 {
+	color: #1f1f1f;
+}
+.info p{
+	color: #ff9900;
+	font-style: italic;
+}
+.info span {
+	color: #9c9c9c;
+}
+.info button {
+	padding: 10px 50px;
+	border: 1px solid #1f1f1f;
+	background-color: transparent;
+	color: #1f1f1f;
+	font-size: 18px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.info button:hover {
+	-moz-box-shadow:inset 0 0 10px #000000;
+   	-webkit-box-shadow: inset 0 0 10px #000000;
+   	box-shadow: inset 0 0 12px #000000;
+   	color: #ff9900;
+}
+.up, .down {
+	display: flex;
+
+}
+.support {
+	width: 50%;
+}
+
+.support p {
+	color: #ff9900;
+}
+.support span {
+	color: #9c9c9c;
+}
+.facility {
+background-color: #f4f3f4;
+align-items: center;
+text-align: center;
+width: 250px;
+height: 190px;
+margin: 15px;
+padding-top: 30px;
+}
+.service-support {
+background-color: #f4f3f4;
+align-items: center;
+text-align: center;
+width: 250px;
+height: 190px;
+margin: 15px;
+padding-top: 30px;
+}
+.charges-fee {
+background-color: #f4f3f4;
+align-items: center;
+text-align: center;
+width: 250px;
+height: 190px;
+margin: 15px;
+padding-top: 30px;
+}
+.delivery {
+background-color: #f4f3f4;
+align-items: center;
+text-align: center;
+width: 250px;
+height: 190px;
+margin: 15px;
+padding-top: 30px;
+}
+.trucks-parking {
+	display: flex;
+}
+.truck-parking {
+	width: 50%;
+}
+.truck-parking img {
+	filter: brightness(75%);
+	background-size: cover;
+	width: 100%;
+    height: 500px;
+    background-position: center;
+}
+.trucks-info {
+	background-color:#ff9900;
+	width: 50%;
+	color: #fff;
+	letter-spacing: 2px;
+	height: 500px;
+	text-align: left;
+}
+.trucks-info h2 {
+ margin-left: 100px;
+ margin-top: 100px;
+}
+.trucks-info p {
+ margin-left: 100px;
+ margin-top: 10px;
+}
+.trucks-info a{
+	color: #fff;
+	text-decoration: none;
+}
+.trucks-info button:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.trucks-info button {
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	background-color:#ff9900;
+	margin-left: 100px;
+	margin-top: 10px;
+	cursor: pointer;
+	padding: none;
+	text-decoration: none;
+}
+.footer-up {
+	margin-top: -5px;
+	display: flex;
+	background-color: #2b2b2b;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	letter-spacing: 1.5px;
+}
+.footer-up h2,span,i,p {
+	color: #fff;
+}
+.footer-up span,p {
+	color: #9c9c9c;
+}
+.footer-up h2 {
+	font-weight: 200;
+}
+.footer-up span,p {
+	font-weight: 200;
+}
+.footer-up span {
+	font-size: 12px;
+}
+.about-us {
+	margin-left: 120px;
+	text-align: left;
+	align-items: center;
+	width: 425px;
+	border-right: 1px solid #9c9c9c;
+}
+
+.about-us h2:after {
+  content: "";
+  display:block;
+  border-top: 2px solid #ff8e00;
+  width: 15%;
+  margin-top: 5px;
+}
+.about-us img {
+	margin-top: 20px;
+	margin-left: -7px;
+}
+.links {
+	width: 190px;
+	text-align: left;
+	padding-left: 80px;
+}
+.links a {
+	text-decoration: none;
+}
+.links p:hover {
+	color: #ff8e00;
+}
+.links p {
+	margin: 30px 0 30px 0;
+}
+.links h2:after {
+  content: "";
+  display:block;
+  border-top: 2px solid #ff8e00;
+  width: 15%;
+  margin-top: 5px;
+}
+.twitter {
+  width: 380px;
+  border-left: 1px solid #9c9c9c;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+.twitter h2:after {
+  content: "";
+  display:block;
+  border-top: 2px solid #ff8e00;
+  width: 15%;
+  margin-top: 5px;
+}
+.instagram {
+  width: 425px;
+  border-left: 1px solid #9c9c9c;
+  padding-left:80px;
+}
+.instagram h2:after {
+  content: "";
+  display:block;
+  border-top: 2px solid #ff8e00;
+  width: 13%;
+  margin-top: 5px;
+}
+.footer {
+	background-color: #1f1f1f;
+	height: 70px;
+	color: #fff;
+	font-weight: 200;
+	display: flex;
+}
+.footer-left {
+	padding-left: 140px;
+	padding-top: 25px;
+	letter-spacing: 1.1px;
+}
+.footer-left a {
+	text-decoration: none;
+	cursor: pointer;
+}
+.oms {
+	color: #ff8e00;
+}
+.footer-right {
+	margin: 25px 25px 25px 800px;
+}
+.footer-right i:hover  {
+color: #ff8e00;
+cursor: pointer;
+}
+.footer-right i{
+	margin-left: 45px;
+}
+/*  Begin Responsive Design */
+@media (min-width: 950px) and (max-width: 1250px) {
+
+}
+@media (max-width: 803px) {
+	.nav {
+		font-size: 14px;
+	}
+	.call {
+		margin-left: 120px;
+	}
+}
+@media (max-width: 757px) {
+	.nav a{
+		font-size: 14px;
+		margin: 8px;
+	}
+}
+@media (max-width: 703px) {
+	.nav img {
+		width: 200px;
+	}
+}
+@media (max-width: 638px) {
+	.nav img {
+		width: 140px;
+	}
+	.nav {
+		font-size: 12px;
+	}
+}
+@media (max-width: 603px) {
+	.header-main a {
+		font-size: 13px;
+	}
+	.call  {
+	margin-left: 35px;
+	}
+}
+@media (max-width: 465px) {
+	.call {
+		margin-left: 0;
+	}
+@media (max-width: 576px) {
+	.nav {
+		font-size: 12px;
+	}
+}
+
+
