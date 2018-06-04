@@ -9,6 +9,9 @@ body {
 	display: flex;
 	width: 100%;
 }
+.header-main a:hover {
+	text-shadow: 2px 2px 4px #000;
+}
 .call {
 	margin-left: 200px;
 	border-left: 1px solid #fff;
@@ -154,9 +157,9 @@ color: #ff9900;
 	cursor: pointer;
 }
 .info button:hover {
-	-moz-box-shadow:inset 0 0 10px #000000;
-   	-webkit-box-shadow: inset 0 0 10px #000000;
-   	box-shadow: inset 0 0 12px #000000;
+	-moz-box-shadow:inset 0 0 5px #000000;
+   	-webkit-box-shadow: inset 0 0 5px #000000;
+   	box-shadow: inset 0 0 5px #000000;
    	color: #ff9900;
 }
 .up, .down {
@@ -231,22 +234,22 @@ padding-top: 30px;
 	text-align: left;
 }
 .trucks-info h2 {
- margin-left: 100px;
- margin-top: 100px;
+	margin-left: 100px;
+	margin-top: 100px;
 }
 .trucks-info p {
- margin-left: 100px;
- margin-top: 10px;
+	margin-left: 100px;
+	margin-top: 10px;
 }
 .trucks-info a{
 	color: #fff;
 	text-decoration: none;
 }
 .trucks-info button:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
 }
 
 @keyframes shake {
@@ -396,8 +399,190 @@ cursor: pointer;
 	margin-left: 45px;
 }
 /*  Begin Responsive Design */
-@media (min-width: 950px) and (max-width: 1250px) {
+@media (max-width: 1779px) {
+	.footer-right {
+		margin: 25px 25px 25px 600px;
+	}
+}
+@media (max-width: 1579px) {
+	.footer-right {
+		margin: 25px 25px 25px 300px;
+	}
+}
+@media (max-width: 1279px) {
+	.footer-right {
+		margin: 25px 25px 25px 200px;
+	}
+	.footer-left {
+		padding-left: 40px;
+	}
+}
+@media (max-width: 1079px) {
+	.footer-right {
+		margin: 15px 15px 15px 100px;
+	}
+	.footer-left {
+		padding-left: 30px;
+	}
+	.footer {
+		height: 50px;
+	}
+	.footer-left {
+		padding-top: 15px;
+	}
+	.footer-left span {
+		font-size: 13px;
+	}
+}
+@media (max-width: 887px) {
+	.footer-left span {
+		font-size: 11px;
+	}
+	.footer-right i{
+		font-size: 14px;
+	}
+}
+@media (max-width: 802px) {
+	.footer-left span {
+		font-size: 9px;
+	}
+	.footer-right i{
+		font-size: 10px;
+	}
+	.footer-right {
+		margin: 15px 15px 15px 50px;
+	}
+}
+@media (max-width: 683px) {
+	.footer-left span {
+		font-size: 8px;
+	}
+	.footer-left {
+		padding-left: 10px;
+	}
+	.footer-right i{
+		font-size: 10px;
+		margin: 5px;
+	}
 
+}
+@media (max-width: 468px) {
+	.footer-left span{
+		font-size: 7px;
+	}
+	.footer-right {
+		
+		margin-left: 10px;
+	}
+}
+@media (min-width: 950px) and (max-width:1600px) {
+	.truck-img img {
+		height: 600px;
+	}
+} 
+@media (max-width: 1420px) {
+	.trucks-info {
+		letter-spacing: 1px;
+	}
+}
+@media (max-width: 1227px) {
+	.links {
+		padding-left: 42px;
+	}
+	.about-us {
+		margin-left: 60px;
+	}
+	.instagram {
+		padding-left: 40px;
+	}
+}
+@media (max-width: 1000px) {
+
+	.main_info span{
+		font-size: 11px;
+	}
+	.truck-parking img {
+		height: 400px;
+	}
+	.trucks-info {
+		height: 400px;
+	}
+	.trucks-info h2 {
+		margin-left: 50px;
+		margin-top: 50px;
+		font-size: 18px;
+	}
+	.trucks-info p {
+		margin-left: 50px;
+		margin-top: 10px;
+		font-size: 13px;
+	}
+	.trucks-info button {
+		margin-left: 41px;
+		margin-top: 30px;
+	}
+	.instagram {
+		padding-left: 25px;
+	}
+}
+@media (max-width: 950px) {
+	.main_truck_text h1{
+		font-size: 4em;
+	}
+	.main_truck_text p{
+		font-size: 0.8em;
+	}
+	.truck-img img {
+		height: 550px;
+	}
+	.about-us {
+		margin-left: 25px;
+	}
+}
+@media (max-width: 900px) {
+	.main_info span{
+		font-size: 11px;
+	}
+	.main_info p{
+		font-size: 13px;
+	}
+	.info {
+		padding-right: 25px;
+		padding-top: 30px;
+	}
+	.about-us img {
+		width: 180px;
+	}
+	.links {
+		padding-left: 17px;
+	}
+}
+@media (min-width: 400px) and (max-width: 800px) {
+	.footer-up h2 {
+		font-size: 13px;
+	}
+	.footer-up span{
+		font-size: 9px;
+	}
+	.footer-up p{
+	font-size: 11px;
+	}
+	.about-us img {
+		width: 130px;
+	}
+	.about-us {
+		margin-left: 8px;
+	}
+	.twitter {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.instagram img {
+		width: 140px;
+	}
+	.twitter i {
+		font-size: 10px;
+	}
 }
 @media (max-width: 803px) {
 	.nav {
@@ -406,16 +591,79 @@ cursor: pointer;
 	.call {
 		margin-left: 120px;
 	}
+	.truck-img img {
+		height: 420px;
+	}
+	.main_truck_text {
+		top: 10%;
+	}
+@media (max-width: 1000px) {
+
 }
+
 @media (max-width: 757px) {
 	.nav a{
 		font-size: 14px;
 		margin: 8px;
 	}
+	.main_truck_text h1{
+	font-size: 40px;
+	}
+	.main_truck_text p{
+	font-size: 11px;
+	}
+	.main_truck_text button{
+	font-size: 12px;
+	padding: 4px 30px;
+	}
+	.main_truck_text {
+	top: 20%;
+	}
+	.facility {
+		padding-top: 20px;
+		margin: 10px;
+	}
+	.service-support {
+		padding-top: 20px;
+		margin: 10px;
+	}
+	.charges-fee {
+		padding-top: 20px;
+		margin: 10px;
+	}
+	.delivery {
+		padding-top: 20px;
+		margin: 10px;
+	}
+	.truck-parking img {
+		height: 280px;
+	}
+	.trucks-info {
+		height: 280px;
+	}
+	.trucks-info h2 {
+		margin-left: 20px;
+		margin-top: 25px;
+		font-size: 14px;
+	}
+	.trucks-info p {
+		margin-left: 20px;
+		margin-top: 4px;
+		font-size: 10px;
+	}
+	.trucks-info button {
+		margin-left: 20px;
+		margin-top: 35px;
+		font-size: 14px;
+	}
+
 }
 @media (max-width: 703px) {
 	.nav img {
 		width: 200px;
+	}
+	.info h2 {
+		font-size: 18px;
 	}
 }
 @media (max-width: 638px) {
@@ -423,6 +671,10 @@ cursor: pointer;
 		width: 140px;
 	}
 	.nav {
+		font-size: 12px;
+	}
+	.info button {
+		padding: 5px 30px;
 		font-size: 12px;
 	}
 }
@@ -433,13 +685,70 @@ cursor: pointer;
 	.call  {
 	margin-left: 35px;
 	}
+	.trucks-info button {
+		margin-left: 12px;
+		margin-top: 20px;
+	}
 }
 @media (max-width: 465px) {
 	.call {
 		margin-left: 0;
 	}
+	.trucks-info h2 {
+		font-size: 12px;
+	}
+	.trucks-info p {
+		font-size: 9px;
+	}
+}
 @media (max-width: 576px) {
-	.nav {
+	.nav a{
+		font-size: 12px;
+	}
+	.nav img {
+		width: 100px;
+	}
+	.facility {
+		padding-top: 10px;
+		margin: 4px;
+	}
+	.service-support {
+		padding-top: 10px;
+		margin: 4px;
+	}
+	.charges-fee {
+		padding-top: 10px;
+		margin: 4px;
+	}
+	.delivery {
+		padding-top: 10px;
+		margin: 4px;
+	}
+	.twitter span{
+		display: none;
+	}
+	.links {
+		padding-left: 8px;
+	}
+}
+@media (max-width: 491px) {
+	.nav a {
+		margin: 5px;
+		font-size: 10px;
+	}
+	.nav img {
+		width: 89px;
+	}
+	.header-main a{
+		font-size: 12px;
+	}
+	.main_info span{
+	font-size: 9px;
+	}
+	.main_info button {
+		margin-top: 0;
+	}
+	.main_info p {
 		font-size: 12px;
 	}
 }
