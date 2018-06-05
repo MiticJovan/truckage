@@ -1,4 +1,4 @@
-body {
+{
 	margin: 0 auto;
 	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
@@ -75,7 +75,7 @@ body {
 }
 .navigation a{
 	text-decoration: none;
-	margin: 15px;
+	margin: 14px;
 	color: #6f6f6f;
 }
 .navigation a:hover{
@@ -332,7 +332,7 @@ text-decoration:none;
 .links {
 	width: 190px;
 	text-align: left;
-	padding-left: 80px;
+	padding-left: 40px;
 	text-decoration: none;
 }
 .links a {
@@ -462,6 +462,9 @@ text-decoration:none;
     padding-bottom: 30px;
     margin-top: auto;
 }
+.contact-info {
+	margin-bottom: 30px;
+}
 
 .fa-map-marker-alt {
     font-size: 35px;
@@ -553,18 +556,18 @@ input[type="submit"] {
     flex-wrap: wrap;
     padding-top: 70px;
 }
-
-.reservation {
-   margin: 0 auto;
+.contact-info {
+	padding-right: 30px;
 }
 
+.reservation {
+   padding-left: 35px;
+   margin-top: -22px;
+   margin-bottom: 40px;
+}
 .reservation h1{
     margin-bottom: 41px;
     color: #DB405A;
-}
-
-.map {
-    border: 1px solid lightgray;
 }
 
 .carousel-showmanymoveone .carousel-control {
@@ -672,9 +675,7 @@ input[type="submit"] {
 	}
 }
 @media (max-width: 1227px) {
-	.links {
-		padding-left: 42px;
-	}
+
 	.about-us {
 		margin-left: 60px;
 	}
@@ -772,7 +773,10 @@ input[type="submit"] {
 }
 @media (max-width: 803px) {
 	.nav {
-		font-size: 14px;
+		font-size: 13px;
+	}
+	.logo img {
+		margin-top: 20px;
 	}
 	.call {
 		margin-left: 120px;
@@ -783,10 +787,9 @@ input[type="submit"] {
 	.main_truck_text {
 		top: 10%;
 	}
-@media (max-width: 1000px) {
-
-}
-
+	.mail {
+		margin-left: 10px;
+	}
 @media (max-width: 757px) {
 	.nav a{
 		font-size: 14px;
@@ -848,6 +851,9 @@ input[type="submit"] {
 	.nav img {
 		width: 200px;
 	}
+	.logo img {
+		margin-top: 28px;
+	}
 	.info h2 {
 		font-size: 18px;
 	}
@@ -855,6 +861,9 @@ input[type="submit"] {
 @media (max-width: 638px) {
 	.nav img {
 		width: 140px;
+	}
+	.logo img{
+		margin-top: 35px;
 	}
 	.nav {
 		font-size: 12px;
@@ -887,12 +896,25 @@ input[type="submit"] {
 		font-size: 9px;
 	}
 }
+@media (min-width: 761px) and (max-width: 781px) {
+	.navigation a {
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 1400px) {
+		 .links {
+	}
+}
 @media (max-width: 576px) {
 	.nav a{
 		font-size: 12px;
 	}
 	.nav img {
 		width: 100px;
+	}
+	.logo img {
+		margin-top: 39px;
 	}
 	.facility {
 		padding-top: 10px;
@@ -902,19 +924,40 @@ input[type="submit"] {
 		padding-top: 10px;
 		margin: 4px;
 	}
+	.service-support p{
+		margin-bottom: 15px;
+	}
 	.charges-fee {
 		padding-top: 10px;
 		margin: 4px;
 	}
 	.delivery {
-		padding-top: 10px;
+		padding-top: 30px;
 		margin: 4px;
+	}
+	.delivery img {
+		margin-top: -15px;
+	}
+	.delivery p {
+		margin-top: 18px;
+		margin-bottom: 16px;
+	}
+	.delivery span {
+		margin-top: 35px;
 	}
 	.twitter span{
 		display: none;
 	}
 	.links {
 		padding-left: 8px;
+	}
+	.links p {
+	color: #ff9900;
+	}
+}
+@media (min-width: 573px) and (max-width:804px) {
+	.links p {
+		color: #ff9900;
 	}
 }
 @media (max-width: 491px) {
@@ -925,8 +968,11 @@ input[type="submit"] {
 	.nav img {
 		width: 89px;
 	}
+	.nav img {
+		margin-top: 40px;
+	}
 	.header-main a{
-		font-size: 12px;
+		font-size: 11px;
 	}
 	.main_info span{
 	font-size: 9px;
@@ -936,6 +982,9 @@ input[type="submit"] {
 	}
 	.main_info p {
 		font-size: 12px;
+	}
+	.links p {
+		color: #ff9900;
 	}
 }
 /* Responsive Cvetko */
