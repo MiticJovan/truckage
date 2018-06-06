@@ -1,4 +1,4 @@
-{
+body {
 	margin: 0 auto;
 	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 }
@@ -608,7 +608,7 @@ input[type="submit"] {
 }
 @media (max-width: 1079px) {
 	.footer-right {
-		margin: 15px 15px 15px 100px;
+		margin: 15px 15px 15px 50px;
 	}
 	.footer-left {
 		padding-left: 30px;
@@ -639,7 +639,7 @@ input[type="submit"] {
 		font-size: 10px;
 	}
 	.footer-right {
-		margin: 15px 15px 15px 50px;
+		margin-left: 30px;
 	}
 }
 @media (max-width: 683px) {
@@ -651,7 +651,7 @@ input[type="submit"] {
 	}
 	.footer-right i{
 		font-size: 10px;
-		margin: 5px;
+		margin: 10px;
 	}
 
 }
@@ -954,10 +954,14 @@ input[type="submit"] {
 	.links p {
 	color: #ff9900;
 	}
+	.instagram img {
+		width: 80px;
+
+	}
 }
 @media (min-width: 573px) and (max-width:804px) {
 	.links p {
-		color: #ff9900;
+	color: #ff9900;
 	}
 }
 @media (max-width: 491px) {
@@ -985,108 +989,27 @@ input[type="submit"] {
 	}
 	.links p {
 		color: #ff9900;
+		font-size: 9px;
+		padding-right: 2px;
+	}
+	.footer-left {
+		padding-left: 0;
+		font-size: 9px;
+	}
+	.footer-right {
+		margin-left: 7px;
+		margin-top: 9px;
+
+	}
+	.footer-right i{
+		font-size: 7px;
+		margin-right: 4px;
 	}
 }
+
+
 /* Responsive Cvetko */
 
-@media all and (min-width: 768px) {
-    .carousel-showmanymoveone .carousel-inner > .active.left,
-    .carousel-showmanymoveone .carousel-inner > .prev {
-        left: -50%;
-    }
-    .carousel-showmanymoveone .carousel-inner > .active.right,
-    .carousel-showmanymoveone .carousel-inner > .next {
-        left: 50%;
-    }
-    .carousel-showmanymoveone .carousel-inner > .left,
-    .carousel-showmanymoveone .carousel-inner > .prev.right,
-    .carousel-showmanymoveone .carousel-inner > .active {
-        left: 0;
-    }
-    .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
-        display: block;
-    }
-}
-@media all and (min-width: 768px) and (transform-3d), all and (min-width: 768px) and (-webkit-transform-3d) {
-    .carousel-showmanymoveone .carousel-inner > .item.active.right,
-    .carousel-showmanymoveone .carousel-inner > .item.next {
-        -webkit-transform: translate3d(50%, 0, 0);
-        transform: translate3d(50%, 0, 0);
-        left: 0;
-    }
-    .carousel-showmanymoveone .carousel-inner > .item.active.left,
-    .carousel-showmanymoveone .carousel-inner > .item.prev {
-        -webkit-transform: translate3d(-50%, 0, 0);
-        transform: translate3d(-50%, 0, 0);
-        left: 0;
-    }
-    .carousel-showmanymoveone .carousel-inner > .item.left,
-    .carousel-showmanymoveone .carousel-inner > .item.prev.right,
-    .carousel-showmanymoveone .carousel-inner > .item.active {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        left: 0;
-    }
-}
-@media all and (min-width: 992px) {
-    .carousel-showmanymoveone .carousel-inner > .active.left,
-    .carousel-showmanymoveone .carousel-inner > .prev {
-        left: -25%;
-    }
-    .carousel-showmanymoveone .carousel-inner > .active.right,
-    .carousel-showmanymoveone .carousel-inner > .next {
-        left: 25%;
-    }
-    .carousel-showmanymoveone .carousel-inner > .left,
-    .carousel-showmanymoveone .carousel-inner > .prev.right,
-    .carousel-showmanymoveone .carousel-inner > .active {
-        left: 0;
-    }
-    .carousel-showmanymoveone .carousel-inner .cloneditem-2,
-    .carousel-showmanymoveone .carousel-inner .cloneditem-3 {
-        display: block;
-    }
-}
-@media all and (min-width: 992px) and (transform-3d), all and (min-width: 992px) and (-webkit-transform-3d) {
-    .carousel-showmanymoveone .carousel-inner > .item.active.right,
-    .carousel-showmanymoveone .carousel-inner > .item.next {
-        -webkit-transform: translate3d(25%, 0, 0);
-        transform: translate3d(25%, 0, 0);
-        left: 0;
-    }
-    .carousel-showmanymoveone .carousel-inner > .item.active.left,
-    .carousel-showmanymoveone .carousel-inner > .item.prev {
-        -webkit-transform: translate3d(-25%, 0, 0);
-        transform: translate3d(-25%, 0, 0);
-        left: 0;
-    }
-    .carousel-showmanymoveone .carousel-inner > .item.left,
-    .carousel-showmanymoveone .carousel-inner > .item.prev.right,
-    .carousel-showmanymoveone .carousel-inner > .item.active {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        left: 0;
-    }
-}
-.container {
-    margin-bottom: 50px;
-}
-body {
-    font-family: 'Bitter', sans-serif;
-    color: #E54A41;
-    background-image: url('//static.rtpdesign.co.uk/blog/img/background.png');
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 20%;
-}
-p {
-    font-family: 'Open Sans', sans-serif;
-    color: #333;
-    margin-bottom: 2em;
-}
-h2 {
-    margin: 2em 0 1em;
-}
 .logo {
     margin: 20px auto;
     height: 100px;
@@ -1104,19 +1027,6 @@ h2 {
     vertical-align: middle;
     text-align: center;
 }
-
-.carousel-inner {
-    align-items: center;
-}
-
-.carousel-control.left {
-    background-image: none!important;
-}
-
-.carousel-control.right {
-    background-image: none!important;
-}
-
 
 @media screen and (max-width: 1349px) {
     .testimonials {
