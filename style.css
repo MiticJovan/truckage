@@ -608,7 +608,7 @@ input[type="submit"] {
 }
 @media (max-width: 1079px) {
 	.footer-right {
-		margin: 15px 15px 15px 50px;
+		margin: 12px 15px 15px 50px;
 	}
 	.footer-left {
 		padding-left: 30px;
@@ -1004,6 +1004,12 @@ input[type="submit"] {
 	.footer-right i{
 		font-size: 7px;
 		margin-right: 4px;
+	}
+	.truck-img img {
+		height: 280px;
+	}
+	.main_truck_text {
+		top: 10%;
 	}
 }
 
