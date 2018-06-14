@@ -951,19 +951,12 @@ input[type="submit"] {
 	.links {
 		padding-left: 8px;
 	}
-	.links p {
-	color: #ff9900;
-	}
 	.instagram img {
 		width: 80px;
 
 	}
 }
-@media (min-width: 573px) and (max-width:804px) {
-	.links p {
-	color: #ff9900;
-	}
-}
+
 @media (max-width: 491px) {
 	.nav a {
 		margin: 5px;
@@ -988,7 +981,6 @@ input[type="submit"] {
 		font-size: 12px;
 	}
 	.links p {
-		color: #ff9900;
 		font-size: 9px;
 		padding-right: 2px;
 	}
