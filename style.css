@@ -168,7 +168,13 @@ text-decoration:none;
 }
 .up, .down {
 	display: flex;
-
+	padding-bottom: 10px;
+}
+.up img {
+	padding-bottom: 5px;
+}
+.down img {
+	padding-bottom: 5px;
 }
 .support {
 	width: 50%;
@@ -187,7 +193,7 @@ text-decoration:none;
 	width: 250px;
 	height: 190px;
 	margin: 15px;
-	padding-top: 30px;
+	padding-top: 40px;
 }
 .service-support {
 	background-color: #f4f3f4;
@@ -214,7 +220,7 @@ text-decoration:none;
 	width: 250px;
 	height: 190px;
 	margin: 15px;
-	padding-top: 30px;
+	padding-top: 41px;
 }
 .trucks-parking {
 	display: flex;
